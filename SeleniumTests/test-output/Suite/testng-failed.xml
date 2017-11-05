@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="testNGTests.GroupsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="Bb"/>
+          <include name="Bbb"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testNGTests.GroupsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
