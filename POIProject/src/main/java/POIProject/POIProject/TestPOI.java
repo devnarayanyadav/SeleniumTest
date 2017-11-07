@@ -46,7 +46,7 @@ public class TestPOI {
 	@Test
 	public void readFile() throws IOException{
 		TestPOI.readExcel();
-		System.out.println("Hello");
+		System.out.println("Hello world");
 	}
 	
 
