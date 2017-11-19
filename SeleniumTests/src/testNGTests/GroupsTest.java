@@ -15,7 +15,6 @@ public class GroupsTest {
   @Test(groups={"A","abc"})
   public void Aa() {
 	  System.out.println("Aa group");  
-	  System.out.println("Testing sunil");
 	  
   }
   
